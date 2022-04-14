@@ -18,23 +18,32 @@ const NavBar = () => {
 
         <div className="items">
           <div className="item">
-            <LanguageRoundedIcon />
+            <LanguageRoundedIcon className="icon" />
             English
           </div>
           <div className="item">
-            <DarkModeOutlinedIcon />
+            <DarkModeOutlinedIcon className="icon" />
           </div>
           <div className="item">
-            <FullscreenExitOutlinedIcon />
+            <FullscreenExitOutlinedIcon className="icon" />
           </div>{" "}
           <div className="item">
-            <NotificationsNoneOutlinedIcon />
+            <NotificationsNoneOutlinedIcon className="icon" />
+            <div className="counter">1</div>
           </div>{" "}
           <div className="item">
-            <ChatBubbleOutlineOutlinedIcon />
+            <ChatBubbleOutlineOutlinedIcon className="icon" />
+            <div className="counter">2</div>
           </div>{" "}
           <div className="item">
-            <FormatListBulletedOutlinedIcon />
+            <FormatListBulletedOutlinedIcon className="icon" />
+          </div>
+          <div className="item">
+            <img
+              className="avatar"
+              src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png"
+              alt="avatar"
+            />
           </div>
         </div>
       </div>
