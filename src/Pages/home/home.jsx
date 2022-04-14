@@ -11,7 +11,8 @@ const Home = () => {
         <NavBar />
         <div className="widgets">
           <Widgets type="user" />
-          <Widgets type="order" /> <Widgets type="earnings" />{" "}
+          <Widgets type="order" />
+          <Widgets type="earnings" />
           <Widgets type="balance" />
         </div>
       </div>
